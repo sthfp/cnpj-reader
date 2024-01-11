@@ -4,40 +4,45 @@ O projeto tem por objetivo extrair e unificar informações de um determinado CN
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Para utilizar o CNPJ reader, você deve utilizar um leitor de Jupyter Notebook. Pode ser um editor de código como Visual Studio Code (veja link para download em "Construído com"), ou utilizando [Jupyter Notebook](https://jupyter.org/install).
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Instalação das bibliotecas abaixo. As seguintes versões foram utilizadas:
 
-```
-Dar exemplos
-```
+* **requests** 2.31.0
+* **plyer** 2.1.0
+* **pandas** 2.0.3
 
-### 🔧 Instalação
+### 🔗 Fontes de Dados
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+As APIs utilizadas são do site [Brasil API](https://brasilapi.com.br/docs). A documentação de utilização de cada API está no site.
 
-Diga como essa etapa será:
+* [API CNPJ](https://brasilapi.com.br/docs#tag/CNPJ)
+* [API CEP](https://brasilapi.com.br/docs#tag/CEP)
+* [API Corretoras](https://brasilapi.com.br/docs#tag/Corretoras)
 
-```
-Dar exemplos
-```
+### 📄 Tabelas
 
-E repita:
+**corretoras_database**
 
-```
-Até finalizar
-```
+**cnpj_database**
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+**cep_database**
+
+### 🧰 Principais Funções
+
+As principais funções são as responsáveis pela extração de cada tabela definida acima.
+
+    corretoras_database
+    cnpj_database
+    cep_database
+
+### ↔️ Relacionamento entre as Tabelas
 
 
-## 📦 Implantação
+<img src="/relacionamento_tabelas.jpg">
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
@@ -45,19 +50,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 
-## ✒️ Autores
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [sthfp](https://github.com/sthfp)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+Este projeto está sob licença.

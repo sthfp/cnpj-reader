@@ -10,9 +10,11 @@ Para utilizar o CNPJ reader, você deve utilizar um leitor de Jupyter Notebook. 
 
 Instalação das bibliotecas abaixo. As seguintes versões foram utilizadas:
 
-* **requests** 2.31.0
-* **plyer** 2.1.0
+* **DateTime** 4.7
 * **pandas** 2.0.3
+* **plyer** 2.1.0
+* **requests** 2.31.0
+
 
 ### 🔗 Fontes de Dados
 
@@ -46,9 +48,8 @@ As principais funções são as responsáveis pela extração de cada tabela def
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [Visual Studio Code](https://code.visualstudio.com/download)
+  >Python 3.8.10
 
 ## 📄 Licença
 
